@@ -1,0 +1,26 @@
+{
+  "name": "loja-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test src/test/regrasClientes.test.js src/test/regrasPedidos.test.js src/test/regrasAvaliacoes.test.js src/test/regrasCategorias.test.js src/test/regrasColaboradores.test.js src/test/regrasFornecedores.test.js src/test/regrasMarcas.test.js src/test/regrasMovimentacoesEstoque.test.js src/test/regrasOrdensServico.test.js src/test/regrasPagamentos.test.js src/test/regrasProdutos.test.js src/test/regrasServicos.test.js",
+    "test:avaliacoes": "node --test src/test/regrasAvaliacoes.test.js",
+    "test:categorias": "node --test src/test/regrasCategorias.test.js",
+    "test:clientes": "node --test src/test/regrasClientes.test.js",
+    "test:colaboradores": "node --test src/test/regrasColaboradores.test.js",
+    "test:fornecedores": "node --test src/test/regrasFornecedores.test.js",
+    "test:marcas": "node --test src/test/regrasMarcas.test.js",
+    "test:movimentacoes": "node --test src/test/regrasMovimentacoesEstoque.test.js",
+    "test:ordens": "node --test src/test/regrasOrdensServico.test.js",
+    "test:pagamentos": "node --test src/test/regrasPagamentos.test.js",
+    "test:pedidos": "node --test src/test/regrasPedidos.test.js",
+    "test:produtos": "node --test src/test/regrasProdutos.test.js",
+    "test:servicos": "node --test src/test/regrasServicos.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
+  }
+}
